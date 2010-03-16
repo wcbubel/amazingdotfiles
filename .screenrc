@@ -1,0 +1,6 @@
+startup_message off
+caption always "%H  %-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%<"
+shell -$SHELL
+termcapinfo xterm* ti@:te@
+vbellwait 0
+
