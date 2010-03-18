@@ -5,7 +5,6 @@ set showmode
 set showcmd
 set scrolloff=1
 set sidescrolloff=3
-set ts=2
 set binary noeol
 set nohlsearch
 set incsearch
@@ -14,12 +13,12 @@ set matchpairs+=<:>
 set showfulltag
 set backspace=indent,eol,start
 set laststatus=2
-set statusline=\ %n:\ %f\ %y%r%m%h%w%<%=%c\,\ %l\/%L\,\ %3P\ 
+set statusline=\ %n:\ %f\ %y%r%m%h%w%<%=%v\,\ %l\/%L\,\ %3P\ 
 set nocompatible
 set noautowrite
 set vb
 set hidden
-set tabstop=2
+set tabstop=4
 set shiftwidth=2
 " set expandtab
 set whichwrap=<,>,~,[,]
