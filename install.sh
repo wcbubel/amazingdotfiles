@@ -2,8 +2,8 @@
 
 function install_symlink {
   if [ ! -e ~/$1 ]; then
-    echo "Installed $1"
-    ln -s $1 ~/$1
+    echo "Installed $PWD/$1 to ~/$1"
+    ln -s $PWD/$1 ~/$1
   fi
 }
 
